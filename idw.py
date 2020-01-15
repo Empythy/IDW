@@ -5,8 +5,9 @@ Created on Tue Jan 14 19:30:14 2020
 @author: cansu
 """
 
-
+import geopandas as gpd
 import pandas as pd
+
 df = pd.read_csv( r"tester.csv" )
 
 #range_limit: search radius
