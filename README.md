@@ -1,5 +1,5 @@
 # IDW
-Inverse Distance Weighted (IDW) using Pandas
+Inverse Distance Weighted (IDW) using GeoPandas
 
 Performs IDW for N_neighbors using range limit. 
 
