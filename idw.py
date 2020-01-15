@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 from shapely.geometry import Point
 
-df_a = gpd.read_file( r"D:\WORK\TUBITAK\tester.csv" )
+df_a = gpd.read_file( r"tester.csv" )
 
 geometry = [Point(xy) for xy in zip(df_a.x.astype(float), df_a.y.astype(float))]
 crs = {'init': 'epsg:32635'} 
